@@ -11,10 +11,12 @@ Familiar with various frameworks such as Laravel, React, Flask, and Bootstrap. S
 ## My Projects
 
 - WIP
+
 <!---
 - [Project 1 Name](https://github.com/username/project-1) - A brief description of the project
 - [Project 2 Name](https://github.com/username/project-2) - A brief description of the project
 -->
+
 ## Contact Me
 
 - Email: alfredpaguio36@gmail.com (Primary), alfred_paguio@yahoo.com
