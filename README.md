@@ -23,7 +23,6 @@ Frameworks: Laravel, React, Flask, Bootstrap<br>
 Database Management: Microsoft SQL Server, MySQL<br>
 IDE Tools: NetBeans, Microsoft Visual Studio, Visual Studio Code, Dev-C++
 
-##### TLDR;
 Familiar with various frameworks such as Laravel, React, Flask, and Bootstrap. Skilled in database management using Microsoft SQL Server and MySQL. Proficient in using various tools such as NetBeans, Microsoft Visual Studio, Visual Studio Code, and Dev-C++, which enables efficient development and implementation of software.
 
 ## My Projects
