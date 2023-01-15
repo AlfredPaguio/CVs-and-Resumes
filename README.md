@@ -1,5 +1,3 @@
-# AlfredPaguio.github.io
-
 Welcome to my GitHub profile! My name is Alfred Umali Paguio and I am a 4th year BSIT student.
 
 ## About Me
