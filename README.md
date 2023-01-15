@@ -3,7 +3,7 @@
 
 ## About Me
 
-A highly motivated and dedicated student with a passion for technology and programming but doesn't have own laptop/desktop PC. Currently pursuing a degree in BSIT, with a with familiarity in programming languages such as C++, C#, Visual Basic .NET, Java, and PHP, Python. 
+A highly motivated and dedicated student with a passion for technology and programming but doesn't have own laptop/desktop PC. Currently pursuing a degree in BSIT, with a familiarity in programming languages such as C++, C#, Visual Basic .NET, Java, and PHP, Python. 
 
 ## Education
 **Bachelor of Science in Information Technology (2019 up to present)**<br>
