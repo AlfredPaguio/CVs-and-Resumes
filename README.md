@@ -23,6 +23,8 @@ Familiar with various frameworks such as Laravel, React, Flask, and Bootstrap. S
 - LinkedIn: [Alfred Umali Paguio](https://www.linkedin.com/in/alfred-paguio-322364260)
 - Facebook: [Here](https://www.facebook.com/TTs.xD.Ap)
 
+[You can download my resume here](https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_Resume.docx).
+
 ## License
 
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
