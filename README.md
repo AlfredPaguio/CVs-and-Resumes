@@ -76,6 +76,9 @@ Written in C# and the database is MySQL
   <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_Resume.docx">You can download my resume here</a></strong>
 </p>
 
+---
+
+![AlfredPaguio's GitHub stats](https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true)
 
 ## License
 
