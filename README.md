@@ -4,7 +4,7 @@
   <strong>Address: #618 Argana St., Población, Muntinlupa City</strong> | <strong>Contact Number: 09498202989</strong>
 </p>
 
-<h1 align="center"> :star: About Me</h1>
+<h1 align="center"> ⭐ About Me</h1>
 
 <p align="center">
 A highly motivated and dedicated student with a passion for technology and programming. Currently pursuing a degree in BSIT, with a familiarity in programming languages such as C++, C#, Visual Basic .NET, Java, PHP, and Python. 
@@ -14,7 +14,7 @@ A highly motivated and dedicated student with a passion for technology and progr
 As an aspiring programmer with a background in Information Technology, I am seeking an internship opportunity in a dynamic and fast-paced environment where I can apply my skills and continue to learn and grow.
 </p>
 
-<h1 align="center">:books: Education</h1>
+<h1 align="center">📚 Education</h1>
 
 <p align="center">
 Bachelor of Science in Information Technology (2019 up to present)<br>
@@ -32,7 +32,7 @@ Primary: Muntinlupa Elementary School (2011-2017)<br>
 Rizal St, Poblacion, Muntinlupa, 1776 Metro Manila
 </p>
 
-<h1 align="center">:computer: Skills</h1>
+<h1 align="center">🖥️ Skills</h1>
 
 <p align="center">
 Familiar with various frameworks such as Laravel, React, Flask, and Bootstrap. Skilled in database management using Microsoft SQL Server and MySQL. Proficient in using various tools such as NetBeans, Microsoft Visual Studio, Visual Studio Code, and Dev-C++, which enables efficient development and implementation of software.
@@ -45,16 +45,28 @@ Familiar with various frameworks such as Laravel, React, Flask, and Bootstrap. S
     Database Management: Microsoft SQL Server, MySQL
     IDE Tools: NetBeans, Microsoft Visual Studio, Visual Studio Code, Dev-C++
 
-<h1 align="center">:file_folder: My Projects</h1>
+<h1 align="center">📁 My Projects</h1>
 
-- WIP
+<h3 align="center">Assistant Programmer at School Division Office - Muntinlupa (2019)</h3>
+<h4 align="center">Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.</h4>
+<p align="center">
+  Co-Developer of the System with <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a><br>
+Primary responsibilities included the development of software code.<br>
+Developed and tested new reporting system and SAP Crystal Reports.<br>
+Contributed to solutions that streamlined processes on existing features of the software.<br>
+Written in C# and the database is MySQL.
+</p>
 
-<!--
-- [Project 1 Name](https://github.com/username/project-1) - A brief description of the project
-- [Project 2 Name](https://github.com/username/project-2) - A brief description of the project
--->
+---
 
-## :mag: Contact Me
+<h3 align="center">Programmer - Taxi Management System (2019)</h3>
+<p align="center">
+Added Features and Enhancements for client’s application and interfaces.<br>
+Developed and tested the new driver management system.<br>
+Written in C# and the database is MySQL
+</p>
+
+<h1 align="center">🔍 Contact Me</h1>
 
 <p align="center">
   <strong>Email: <a href="mailto:alfredpaguio36@gmail.com">alfredpaguio36@gmail.com (Primary)</a>, <a href="mailto:alfred_paguio@yahoo.com">alfred_paguio@yahoo.com</a></strong><br>
