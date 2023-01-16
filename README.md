@@ -77,11 +77,6 @@ Written in C# and the database is MySQL
 </p>
 
 ---
-<p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark">
-</p>
-
----
 
 ## License
 
@@ -96,4 +91,11 @@ https://emojipedia.org/
 ---
 
 ## Misc.
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=AlfredPaguio.AlfredPaguio.github.io&left_text=Visitors)
+
+<p align="center">
+<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=AlfredPaguio.AlfredPaguio.github.io&left_text=Visitors">
+</p>
+
+<p align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark">
+</p>
