@@ -87,6 +87,13 @@ Written in C# and the database is MySQL
 
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Used plugin(s):
+## Used resource(s):
 
-https://github.com/Ileriayo/markdown-badges
+https://github.com/Ileriayo/markdown-badges<br>
+https://github.com/jwenjian/visitor-badge<br>
+https://emojipedia.org/
+
+---
+
+## Misc.
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=AlfredPaguio.AlfredPaguio.github.io&left_text=Visitors)
