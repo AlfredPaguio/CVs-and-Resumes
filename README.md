@@ -70,15 +70,15 @@ Written in C# and the database is MySQL
 
 <p align="center">
   <strong>Email: <a href="mailto:alfredpaguio36@gmail.com">alfredpaguio36@gmail.com (Primary)</a>, <a href="mailto:alfred_paguio@yahoo.com">alfred_paguio@yahoo.com</a></strong><br>
-  <strong><a href="https://www.linkedin.com/in/alfred-paguio-322364260">LinkedIn</a></strong> |
-  <strong><a href="https://www.facebook.com/TTs.xD.Ap">Facebook</a></strong>
+  <strong><a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a></strong> |
+  <strong><a href="https://www.facebook.com/TTs.xD.Ap"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a></strong>
   <br><br>
   <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_Resume.docx">You can download my resume here</a></strong>
 </p>
 
 ---
 
-![AlfredPaguio's GitHub stats](https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true)
+![AlfredPaguio's GitHub stats](https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark)
 
 ## License
 
