@@ -71,7 +71,7 @@ Written in C# and the database is MySQL
 <p align="center">
   <strong><a href="mailto:alfredpaguio36@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> alfredpaguio36@gmail.com (Primary)</a> | <a href="mailto:alfred_paguio@yahoo.com"><img align="center" src="https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white"> alfred_paguio@yahoo.com</a></strong><br><br>
   <strong><a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a></strong> |
-  <strong><a href="https://www.facebook.com/TTs.xD.Ap"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a></strong>
+  <strong><a href="https://www.facebook.com/FleetingComet/"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a></strong>
   <br><br>
   <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_Resume.docx">You can download my resume here</a></strong>
 </p>
