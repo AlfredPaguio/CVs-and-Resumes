@@ -76,7 +76,10 @@ Developed and tested the new driver management system.<br>
   <strong><a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a></strong> |
   <strong><a href="https://www.facebook.com/FleetingComet/"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a></strong>
   <br><br>
-  <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_Resume.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20resume%20here-success"></a></strong>
+  <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20resume%20here-success"></a></strong> |
+  <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange"></a></strong>
+
+  
 </p>
 
 ---
