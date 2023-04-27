@@ -1,4 +1,4 @@
-<h1 align="center"> Welcome to my GitHub profile! My name is <a href="https://www.facebook.com/FleetingComet">Alfred Umali Paguio</a> and I will be graduating soon with a degree in BSIT.</h1> 
+<h1 align="center"> Welcome to my GitHub profile! My name is <a href="https://www.facebook.com/FleetingComet">Alfred Umali Paguio</a> and I will be graduating soon with a degree in BSIT.</h1>
 
 <p align="center">
   <strong>Address: #618 Tuazon St., Población, Muntinlupa City</strong> | <strong>Contact Number: 09498202989</strong>
@@ -9,7 +9,6 @@
 <p align="center">
 As a graduating student with a degree in Bachelor of Science in Information Technology and familiarity in programming languages such as C++, C#, Visual Basic .NET, Java, PHP, and Python, I am seeking an entry-level position as a programmer in a dynamic and fast-paced environment where I can apply my skills, passion for technology and programming, and continue to learn and grow both personally and professionally.
 </p>
-
 
 <h1 align="center">📚 Education</h1>
 
@@ -45,11 +44,11 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 <h1 align="center">📁 My Projects</h1>
 
 <h3 align="center">Assistant Programmer at School Division Office - Muntinlupa (2019)</h3>
+<h4 align="center">Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.</h4>
 <p align="center">
 <img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
 <img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
 </p>
-<h4 align="center">Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.</h4>
 <p align="center">
   Co-Developer of the System with <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a><br>
 Primary responsibilities included the development of software code.<br>
@@ -72,15 +71,38 @@ Developed and tested the new driver management system.<br>
 <h1 align="center">🔍 Contact Me</h1>
 
 <p align="center">
-  <strong><a href="mailto:alfredpaguio36@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> alfredpaguio36@gmail.com (Primary)</a> | <a href="mailto:alfred_paguio@yahoo.com"><img align="center" src="https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white"> alfred_paguio@yahoo.com</a></strong><br><br>
-  <strong><a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a></strong> |
-  <strong><a href="https://www.facebook.com/FleetingComet/"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a></strong>
-  <br><br>
-  <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20resume%20here-success"></a></strong> |
-  <strong><a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange"></a></strong>
-
-  
+    <strong>
+        <a href="mailto:alfredpaguio36@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> alfredpaguio36@gmail.com (Primary)</a> |
+        <a href="mailto:alfred_paguio@yahoo.com"><img align="center" src="https://img.shields.io/badge/Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white" /> alfred_paguio@yahoo.com</a>
+    </strong>
+    <br />
+    <br />
+    <strong>
+        <a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    </strong>
+    |
+    <strong>
+        <a href="https://www.facebook.com/FleetingComet/"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
+    </strong>
+    <br />
+    <br />
+    <strong>
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_with_picture.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20CV%20here-brightgreen" /></a>
+    </strong>
+    |
+    <strong>
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_with_picture.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
+    </strong>
+    <br/>
+     <strong>
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-Without%20picture%20here-brightgreen" /></a>
+    </strong>
+    |
+    <strong>
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
+    </strong>
 </p>
+
 
 ---
 
