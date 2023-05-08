@@ -19,12 +19,12 @@ University Road, Poblacion, Muntinlupa, Metro Manila
 </p>
 
 <p align="center">
-Secondary: Muntinlupa National High School Main (2017-2019)<br>
+Secondary: Muntinlupa National High School Main (2013-2019)<br>
 University Road, Poblacion, Muntinlupa, 1776 Metro Manila
 </p>
 
 <p align="center">
-Primary: Muntinlupa Elementary School (2011-2017)<br>
+Primary: Muntinlupa Elementary School (2007-2013)<br>
 Rizal St, Poblacion, Muntinlupa, 1776 Metro Manila
 </p>
 
@@ -54,18 +54,6 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 Primary responsibilities included the development of software code.<br>
 Developed and tested new reporting system using SAP Crystal Reports.<br>
 Contributed to solutions that streamlined processes on existing features of the software.<br>
-</p>
-
----
-
-<h3 align="center">Programmer - Taxi Management System (2019)</h3>
-<p align="center">
-<img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
-<img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-</p>
-<p align="center">
-Added Features and Enhancements for client's application and interfaces.<br>
-Developed and tested the new driver management system.<br>
 </p>
 
 <h1 align="center">🔍 Contact Me</h1>
@@ -106,7 +94,8 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 ## Used resource(s):
 
 https://github.com/Ileriayo/markdown-badges<br>
-https://github.com/jwenjian/visitor-badge<br>
+https://github.com/anuraghazra/github-readme-stats<br>
+https://github.com/antonkomarev/github-profile-views-counter<br>
 https://emojipedia.org/
 
 ---
@@ -114,9 +103,16 @@ https://emojipedia.org/
 ## Misc.
 
 <p align="center">
-<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=AlfredPaguio.AlfredPaguio.github.io&left_text=Visitors">
+<img align="center" src="https://komarev.com/ghpvc/?username=AlfredPaguio&style=flat-square">
 </p>
+
 
 <p align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark">
 </p>
+
+<p align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlfredPaguio&count_private=true&theme=dark&layout=compact">
+</p>
+
+
