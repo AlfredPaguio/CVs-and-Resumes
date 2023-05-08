@@ -43,18 +43,7 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 
 <h1 align="center">📁 My Projects</h1>
 
-<h3 align="center">Assistant Programmer at School Division Office - Muntinlupa (2019)</h3>
-<h4 align="center">Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.</h4>
-<p align="center">
-<img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
-<img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-</p>
-<p align="center">
-  Co-Developer of the System with <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a><br>
-Primary responsibilities included the development of software code.<br>
-Developed and tested new reporting system using SAP Crystal Reports.<br>
-Contributed to solutions that streamlined processes on existing features of the software.<br>
-</p>
+<h2 align="center">will update this section soon</h2>
 
 <h1 align="center">🔍 Contact Me</h1>
 
