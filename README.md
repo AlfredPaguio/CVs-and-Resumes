@@ -87,28 +87,13 @@ Developed and tested the new driver management system.<br>
     <br />
     <br />
     <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_new.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20CV%20here-brightgreen" /></a>
+        <a href=""><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20CV%20here-brightgreen" /></a>
     </strong>
     |
     <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_new.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
+        <a href=""><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
     </strong>
-    <br/>
-    <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_with_picture.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20old%20style%20CV%20here-brightgreen" /></a>
-    </strong>
-    |
-    <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV_with_picture.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
-    </strong>
-    <br/>
-     <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-Without%20picture%20here-brightgreen" /></a>
-    </strong>
-    |
-    <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
-    </strong>
+    
 </p>
 
 
