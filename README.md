@@ -1,4 +1,4 @@
-<h1 align="center"> Welcome to my GitHub profile! My name is <a href="https://www.facebook.com/FleetingComet">Alfred Umali Paguio</a> and I will be graduating soon with a degree in BSIT.</h1>
+<h1 align="center"> Welcome to my GitHub profile! My name is <a href="https://www.facebook.com/FleetingComet">Alfred Umali Paguio</a> and I am a fresh graduate with a degree in BSIT.</h1>
 
 <p align="center">
   <strong>Address: #618 Tuazon St., Población, Muntinlupa City</strong> | <strong>Contact Number: 09498202989</strong>
@@ -7,13 +7,13 @@
 <h1 align="center"> ⭐ About Me</h1>
 
 <p align="center">
-As a graduating student with a degree in Bachelor of Science in Information Technology and familiarity in programming languages such as C++, C#, Visual Basic .NET, Java, PHP, and Python, I am seeking an entry-level position as a programmer in a dynamic and fast-paced environment where I can apply my skills, passion for technology and programming, and continue to learn and grow both personally and professionally.
+As a recent graduate in Information Technology, I am a dedicated and motivated individual with a passion for technology and programming. I am seeking an entry-level programmer position in a dynamic environment to apply my skills and contribute to developing robust systems that help others achieve their goals.
 </p>
 
 <h1 align="center">📚 Education</h1>
 
 <p align="center">
-Bachelor of Science in Information Technology (2019 up to present)<br>
+Bachelor of Science in Information Technology (2019-2023)<br>
 Pamantasan ng Lungsod ng Muntinlupa (PLMUN)<br>
 University Road, Poblacion, Muntinlupa, Metro Manila
 </p>
@@ -43,7 +43,38 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 
 <h1 align="center">📁 My Projects</h1>
 
-<h2 align="center">will update this section soon</h2>
+<h3 align="center">Personal Data Sheet System for public school teachers - 2019</h3>
+<p align="center">
+    <img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
+    <img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+</p>
+<p align="center">
+    <ul>
+        <li>
+        Assisted <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a> in the development of the system as a co-developer for this School Division Office - Muntinlupa project.
+        </li>
+        <li>
+        Actively contributed to the development of software code and implemented solutions that streamlined processes on existing features of the software.
+        </li>
+        <li>
+        Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.
+        </li>
+    </ul>
+</p>
+<br>
+
+<h3 align="center">Taxi Management System - 2019</h3>
+<p align="center">
+    <img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
+    <img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+</p>
+<p align="center">
+    <ul>
+        <li>
+        Added features and improved the application's interfaces to handle boundary pay, loans, savings of drivers and etc..
+        </li>
+    </ul>
+</p>
 
 <h1 align="center">🔍 Contact Me</h1>
 
