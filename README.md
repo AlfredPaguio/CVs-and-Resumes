@@ -63,18 +63,7 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 </p>
 <br>
 
-<h3 align="center">Taxi Management System - 2019</h3>
-<p align="center">
-    <img align="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
-    <img align="center" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-</p>
-<p align="center">
-    <ul>
-        <li>
-        Added features and improved the application's interfaces to handle boundary pay, loans, savings of drivers and etc..
-        </li>
-    </ul>
-</p>
+
 
 <h1 align="center">🔍 Contact Me</h1>
 
@@ -134,5 +123,3 @@ https://emojipedia.org/
 <p align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlfredPaguio&count_private=true&theme=dark&layout=compact">
 </p>
-
-
