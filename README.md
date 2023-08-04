@@ -117,9 +117,9 @@ https://emojipedia.org/
 
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark">
+<img align="center" src="https://github-readme-stats-alfred-paguio.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark">
 </p>
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlfredPaguio&count_private=true&theme=dark&layout=compact">
+<img align="center" src="https://github-readme-stats-alfred-paguio.vercel.app/api/top-langs/?username=AlfredPaguio&count_private=true&theme=dark&layout=compact">
 </p>
