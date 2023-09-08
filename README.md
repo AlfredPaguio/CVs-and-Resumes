@@ -28,7 +28,35 @@ Primary: Muntinlupa Elementary School (2007-2013)<br>
 Rizal St, Poblacion, Muntinlupa, 1776 Metro Manila
 </p>
 
-<h1 align="center">🖥️ Skills</h1>
+<h1 align="center">💼 Experience</h1>
+
+<h3 align="center">Web Developer Intern</h3>
+<p align="center">Feb. 06, 2023 – May 03, 2023</p>
+<p align="center">B&D It Consultancy - bditconsultancy.com</p>
+<p align="center">
+    <ul>
+        <li>
+        Collaborated closely with a skilled team of developers to design, build, and maintain dynamic web applications, leveraging tools like the Live Share extension in Visual Studio Code for collaborative coding sessions. To ensure efficient version control and project tracking, commits and contributions were managed through a single GitHub account due to internet problems.
+        </li>
+        <li>
+        Conducted rigorous testing and executed meticulous debugging of web applications, ensuring seamless performance and functionality across different platforms and devices.
+        </li>
+        <li>
+        Addressed technical challenges in real-time, implementing solutions that improved application responsiveness and minimized loading times, resulting in increased user satisfaction.
+        </li>
+        <li>
+        Utilized cutting-edge technologies, including Laravel Livewire and Bootstrap, to develop responsive and user-centric web pages, enhancing the overall user experience. Additionally, we also contributed to the enhancement of their information site, resulting in improved user accessibility and engagement. The source code for these projects can be found on my GitHub repositories.
+            <ul>
+                <li><a href="https://github.com/AlfredPaguio/Human-Resources-Information-System">Human Resource Information System | Python, Flask, JQuery, MySQL</a></li>
+                <li><a href="https://github.com/AlfredPaguio/Livewire-Ecommerce">E-Commerce System | PHP, Laravel Livewire, MySQL</a></li>
+                <li><a href="https://github.com/AlfredPaguio/BND-Info-Site">Information Site | PHP, Laravel Livewire</a></li>
+            </ul>
+        </li>
+    </ul>
+</p>
+<br>
+
+<h1 align="center">🖥️ Technical Skills</h1>
 
 <p align="center">
 Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask, and Bootstrap. Skilled in database management using Microsoft SQL Server and MySQL. Proficient in using various tools such as NetBeans, Microsoft Visual Studio, Visual Studio Code, and Dev-C++, which enables efficient development and implementation of software.
@@ -39,9 +67,10 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
     Programming Languages: C++, C#, Visual Basic .NET, Java, PHP, Python
     Frameworks: Laravel, Laravel Livewire, React, Flask, Bootstrap
     Database Management: Microsoft SQL Server, MySQL
-    IDE Tools: NetBeans, Microsoft Visual Studio, Visual Studio Code, Dev-C++
+    Developer Tools: Git, Android Studio, NetBeans, Microsoft Visual Studio, Visual Studio Code, Dev-C++
+    Libraries: jQuery
 
-<h1 align="center">📁 My Projects</h1>
+<h1 align="center">📁 Projects</h1>
 
 <h3 align="center">Personal Data Sheet System for public school teachers - 2019</h3>
 <p align="center">
@@ -51,13 +80,13 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 <p align="center">
     <ul>
         <li>
-        Assisted <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a> in the development of the system as a co-developer for this School Division Office - Muntinlupa project.
+        Assisted <a href="https://www.facebook.com/nite.guerrero">Nite Guerrero</a> in the development of the Personal Data Sheet System for the School Division Office - Muntinlupa project, contributing to software code creation and feature enhancement.
         </li>
         <li>
-        Actively contributed to the development of software code and implemented solutions that streamlined processes on existing features of the software.
+        Played a significant role in identifying and addressing bugs through thorough code analysis and systematic testing, ensuring the software's stability and reliability.
         </li>
         <li>
-        Analyzed code for system testing and debugging; created test transactions to find and isolate bugs to solve them.
+        Demonstrated strong problem-solving skills by implementing solutions that enhanced existing software features, contributing to the project's overall progress.
         </li>
     </ul>
 </p>
@@ -75,7 +104,7 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
     <br />
     <br />
     <strong>
-        <a href="https://www.linkedin.com/in/alfred-paguio-322364260"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+        <a href="https://www.linkedin.com/in/alfredpaguio"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     </strong>
     |
     <strong>
@@ -90,15 +119,9 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
     <strong>
         <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
     </strong>
+    <p align="center">Last Updated: September 08, 2023</p>
     
 </p>
-
-
----
-
-## License
-
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Used resource(s):
 
@@ -107,9 +130,7 @@ https://github.com/anuraghazra/github-readme-stats<br>
 https://github.com/antonkomarev/github-profile-views-counter<br>
 https://emojipedia.org/
 
----
-
-## Misc.
+## Miscellaneous:
 
 <p align="center">
 <img align="center" src="https://komarev.com/ghpvc/?username=AlfredPaguio&style=flat-square">
