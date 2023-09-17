@@ -3,6 +3,12 @@
 <p align="center">
   <strong>Address: #618 Tuazon St., Población, Muntinlupa City</strong> | <strong>Contact Number: 09498202989</strong>
 </p>
+<p align="center">
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-Download%20my%20CV%20here-brightgreen?style=for-the-badge" /></a>
+    |
+        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange?style=for-the-badge" /></a>
+    <p align="center">Last Updated: September 08, 2023</p>
+</p>
 
 <h1 align="center"> ⭐ About Me</h1>
 
@@ -110,17 +116,6 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
     <strong>
         <a href="https://www.facebook.com/FleetingComet/"><img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
     </strong>
-    <br />
-    <br />
-    <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-You%20can%20download%20my%20CV%20here-brightgreen" /></a>
-    </strong>
-    |
-    <strong>
-        <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange" /></a>
-    </strong>
-    <p align="center">Last Updated: September 08, 2023</p>
-    
 </p>
 
 ## Used resource(s):
