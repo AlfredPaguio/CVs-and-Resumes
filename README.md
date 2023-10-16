@@ -7,7 +7,7 @@
         <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.docx"><img align="center" src="https://img.shields.io/badge/-Download%20my%20CV%20here-brightgreen?style=for-the-badge" /></a>
     |
         <a href="https://github.com/AlfredPaguio/AlfredPaguio.github.io/raw/main/res/AlfredPaguio_CV.pdf"><img align="center" src="https://img.shields.io/badge/-PDF%20Version%20here-orange?style=for-the-badge" /></a>
-    <p align="center">Last Updated: September 08, 2023</p>
+    <p align="center">Last Updated: October 16, 2023</p>
 </p>
 
 <h1 align="center"> ⭐ About Me</h1>
