@@ -13,7 +13,7 @@
 <h1 align="center"> ⭐ About Me</h1>
 
 <p align="center">
-As a recent graduate in Information Technology, I am a dedicated and motivated individual with a passion for technology and programming. I am seeking an entry-level programmer position in a dynamic environment to apply my skills and contribute to developing robust systems that help others achieve their goals.
+As a recent graduate in Information Technology, I am a dedicated and motivated individual with a passion for technology and programming. I have acquired proficiency in essential programming languages and technologies, such as Laravel (and Livewire), React, Typescript. I am now eager to apply my skills and knowledge to an entry-level programmer position in a dynamic environment where I can contribute to developing robust systems that help others achieve their goals.
 </p>
 
 <h1 align="center">📚 Education</h1>
@@ -70,11 +70,12 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 
 ---
 
-    Programming Languages: C++, C#, Visual Basic .NET, Java, PHP, Python
-    Frameworks: Laravel, Laravel Livewire, React, Flask, Bootstrap
+    Programming Languages: C#, Visual Basic .NET, Java, PHP, Python, Typescript, Javascript
+    Frameworks: Laravel, Laravel Livewire, Flask
+    Front-End Frameworks: Bootstrap, TailwindCSS
     Database Management: Microsoft SQL Server, MySQL
-    Developer Tools: Git, Android Studio, NetBeans, Microsoft Visual Studio, Visual Studio Code, Dev-C++
-    Libraries: jQuery
+    Developer Tools: Git, Android Studio, NetBeans, Microsoft Visual Studio, Visual Studio Code
+    Libraries: jQuery, React
 
 <h1 align="center">📁 Projects</h1>
 
@@ -122,6 +123,7 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 
 https://github.com/Ileriayo/markdown-badges<br>
 https://github.com/anuraghazra/github-readme-stats<br>
+https://git.io/streak-stats<br>
 https://github.com/antonkomarev/github-profile-views-counter<br>
 https://emojipedia.org/
 
@@ -133,9 +135,12 @@ https://emojipedia.org/
 
 
 <p align="center">
-<img align="center" src="https://github-readme-stats-alfred-paguio.vercel.app/api?username=AlfredPaguio&count_private=true&theme=dark&PAT_1">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&show_icons=true&count_private=true&theme=dark&include_all_commits=true&hide_rank=true">
 </p>
 
 <p align="center">
-<img align="center" src="https://github-readme-stats-alfred-paguio.vercel.app/api/top-langs/?username=AlfredPaguio&count_private=true&theme=dark&layout=compact&PAT_1">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlfredPaguio&show_icons=true&count_private=true&theme=dark&layout=compact">
+
+<a align="center" href="https://git.io/streak-stats">
+<img src="https://streak-stats.demolab.com?user=AlfredPaguio&theme=modern-lilac2&mode=weekly" alt="GitHub Streak" /></a>
 </p>
