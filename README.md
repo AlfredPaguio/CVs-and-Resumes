@@ -1,3 +1,5 @@
+<h1 align="center"> You should go to <a href="https://alfredpaguio.vercel.app/">https://alfredpaguio.vercel.app/</a> instead.</h1>
+<h2 align="center"> This page will not be updated anymore (this is the last update, December 12, 2023).</h2>
 <h1 align="center"> Welcome to my GitHub profile! My name is <a href="https://www.facebook.com/FleetingComet">Alfred Umali Paguio</a> and I am a fresh graduate with a degree in BSIT.</h1>
 
 <p align="center">
@@ -13,7 +15,7 @@
 <h1 align="center"> ⭐ About Me</h1>
 
 <p align="center">
-As a recent graduate in Information Technology, I am a dedicated and motivated individual with a passion for technology and programming. I have acquired proficiency in essential programming languages and technologies, such as Laravel (and Livewire), React, Typescript. I am now eager to apply my skills and knowledge to an entry-level programmer position in a dynamic environment where I can contribute to developing robust systems that help others achieve their goals.
+As a fresh graduate in Information Technology, I am a dedicated and motivated individual with a passion for technology and programming. I have acquired proficiency in essential programming languages and technologies, such as Laravel (and Livewire), React, Typescript. I am now eager to apply my skills and knowledge to an entry-level programmer position in a dynamic environment where I can contribute to developing robust systems that help others achieve their goals.
 </p>
 
 <h1 align="center">📚 Education</h1>
@@ -70,11 +72,11 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
 
 ---
 
-    Programming Languages: C#, Visual Basic .NET, Java, PHP, Python, Typescript, Javascript
+    Programming Languages: C# 5.0, Visual Basic .NET, Java, PHP, Python, Typescript, Javascript
     Frameworks: Laravel, Laravel Livewire, Flask
     Front-End Frameworks: Bootstrap, TailwindCSS
     Database Management: Microsoft SQL Server, MySQL
-    Developer Tools: Git, Android Studio, NetBeans, Microsoft Visual Studio, Visual Studio Code
+    Developer Tools: Git, Microsoft Visual Studio, Visual Studio Code
     Libraries: jQuery, React
 
 <h1 align="center">📁 Projects</h1>
@@ -98,8 +100,6 @@ Familiar with various frameworks such as Laravel, Laravel Livewire, React, Flask
     </ul>
 </p>
 <br>
-
-
 
 <h1 align="center">🔍 Contact Me</h1>
 
@@ -132,7 +132,6 @@ https://emojipedia.org/
 <p align="center">
 <img align="center" src="https://komarev.com/ghpvc/?username=AlfredPaguio&style=flat-square">
 </p>
-
 
 <p align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=AlfredPaguio&show_icons=true&count_private=true&theme=dark&include_all_commits=true&hide_rank=true">
