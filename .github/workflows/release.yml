@@ -18,7 +18,35 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Debug current directory
+        run: |
+          pwd
+          ls -l
+
+      - name: List contents of './release' directory
+        run: ls -l ./release
+
+      - name: Navigate to './release'
+        run: cd ./release || { echo "Directory not found"; exit 1; }
+
+      - name: Check current directory after cd
+        run: |
+          pwd
+          ls -l
+
+      - name: Check if tag exists
+        id: check_tag
+        run: |
+          if gh release view ${{ github.ref }} &> /dev/null; then
+            echo "Tag exists"
+            echo "TAG_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "Tag does not exist"
+            echo "TAG_EXISTS=false" >> $GITHUB_ENV
+          fi
+
       - name: Create GitHub Release
+        if: env.TAG_EXISTS == 'false'
         id: create_release
         uses: actions/create-release@v1.1.4
         env:
@@ -29,22 +57,8 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: List contents of '/release' directory
-        run: ls -l release
-
-      - name: Navigate to './release'
-        run: cd ./release || { echo "Directory not found"; exit 1; }
-
-      - name: Check current directory after cd
-        run: |
-          pwd
-          ls -l
-
-      - name: Tree Directory
-        run: |
-          tree -a . -I ".git|res/*"
-
-      - name: Upload Release Asset
+      - name: Upload Release Assets
+        if: env.TAG_EXISTS == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
