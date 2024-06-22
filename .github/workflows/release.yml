@@ -31,18 +31,19 @@ jobs:
 
       - name: Find release files
         id: list_files
-        run: echo "::set-output name=files::$(ls -1 res/release/* | tr '\n' ' ')"
+        run: |
+          ls -1 res/release/*
 
       - name: Upload each file to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for file in ${{ steps.list_files.outputs.files }}; do
+          cd res/release
+          for file in *; do
             echo "Uploading $file..."
-            filename=$(basename "$file")
             curl -X POST \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Content-Type: $(file --mime-type -b "$file")" \
               --data-binary @"$file" \
-              "${{ steps.create_release.outputs.upload_url }}?name=$filename"
+              "${{ steps.create_release.outputs.upload_url }}?name=$file"
           done
