@@ -31,6 +31,7 @@ jobs:
 
       - name: List Directory Contents
         run: |
+          tree -a .git
           ls -l    # List current directory contents
           ls -l res    # List contents of 'res' directory
           ls -l res/release    # List contents of 'res/release' directory
