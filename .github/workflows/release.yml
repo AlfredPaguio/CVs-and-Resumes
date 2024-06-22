@@ -1,4 +1,4 @@
-name: Create Release and Upload Assets
+name: Create or Update Release and Upload Assets
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  create-release:
+  create-or-update-release:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git
@@ -24,28 +24,20 @@ jobs:
           ls -l
 
       - name: List contents of './release' directory
-        run: ls -l ./release
-
-      - name: Navigate to './release'
-        run: cd ./release || { echo "Directory not found"; exit 1; }
-
-      - name: Check current directory after cd
         run: |
+          ls -l ./release
           pwd
-          ls -l
 
       - name: Check if tag exists
         id: check_tag
         run: |
-          if gh release view ${{ github.ref }} &> /dev/null; then
-            echo "Tag exists"
+          if gh release view ${{ github.ref }} > /dev/null 2>&1; then
             echo "TAG_EXISTS=true" >> $GITHUB_ENV
           else
-            echo "Tag does not exist"
             echo "TAG_EXISTS=false" >> $GITHUB_ENV
           fi
 
-      - name: Create GitHub Release
+      - name: Create GitHub Release if not exists
         if: env.TAG_EXISTS == 'false'
         id: create_release
         uses: actions/create-release@v1.1.4
@@ -58,10 +50,10 @@ jobs:
           prerelease: false
 
       - name: Upload Release Assets
-        if: env.TAG_EXISTS == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cd ./release
           for file in *; do
             gh release upload ${{ github.ref }} "$file" --clobber
           done
