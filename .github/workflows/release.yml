@@ -29,12 +29,14 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: List release files
-        run: ls -1 res/release/*
+      - name: List Directory Contents
+        run: |
+          ls -l    # List current directory contents
+          ls -l res    # List contents of 'res' directory
+          ls -l res/release    # List contents of 'res/release' directory
+          ls -1 res/release/*  # List release files
 
       - name: Upload Release Asset
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd res/release
           for file in *; do
