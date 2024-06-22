@@ -29,11 +29,11 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: List contents of 'res/release' directory
+      - name: List contents of '/release' directory
         run: ls -l release
 
       - name: Navigate to 'release'
-        run: cd release || { echo "Directory not found"; exit 1; }
+        run: cd ./release || { echo "Directory not found"; exit 1; }
 
       - name: Check current directory after cd
         run: |
