@@ -29,23 +29,22 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Navigate to 'res/release'
+        run: cd res/release || exit 1
+
       - name: Current Directory
         run: |
           pwd
+          ls -l
       
       - name: Tree Directory
         run: |
-          tree -a .
-
-      - name: List Directory Contents
-        run: |
-          ls -1 ./res/release/*
+          tree -a . -I '.git'
 
       - name: Upload Release Asset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd ./res/release
-          for file in res/release; do
+          for file in *; do
             gh release upload ${{ github.ref }} "$file" --clobber
           done
