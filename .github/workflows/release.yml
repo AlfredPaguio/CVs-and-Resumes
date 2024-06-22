@@ -31,15 +31,18 @@ jobs:
 
       - name: List Directory Contents
         run: |
-          tree -a .git
+          tree -a .
           ls -l    # List current directory contents
           ls -l res    # List contents of 'res' directory
           ls -l res/release    # List contents of 'res/release' directory
           ls -1 res/release/*  # List release files
+          cd
 
       - name: Upload Release Asset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd res/release
-          for file in *; do
+          for file in res/release; do
             gh release upload ${{ github.ref }} "$file" --clobber
           done
