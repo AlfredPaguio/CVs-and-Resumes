@@ -39,4 +39,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_pattern: res/release/*
+          asset_path: res/release/*
+          asset_name: ${{ github.event.repository.name }}_${{ github.event.ref.name }}_${{ github.run_id }}
