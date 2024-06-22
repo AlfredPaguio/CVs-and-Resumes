@@ -10,13 +10,13 @@ jobs:
   create-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Set up Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Create GitHub Release
         id: create_release
@@ -36,11 +36,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
-          assets=()
           cd res/release
           for file in *; do
-            assets+=("-a" "$file")
+            gh release upload ${{ github.ref }} "$file" --clobber
           done
-          tag_name="${GITHUB_REF##*/}"
-          hub release create "${assets[@]}" -m "$tag_name" "$tag_name"
