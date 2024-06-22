@@ -29,21 +29,19 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Find release files
-        id: list_files
-        run: |
-          ls -1 res/release/*
+      - name: List release files
+        run: ls -1 res/release/*
 
       - name: Upload each file to release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: upload_assets
         run: |
           cd res/release
           for file in *; do
             echo "Uploading $file..."
+            commit_message="$(echo "${{ github.event.head_commit.message }}" | tr ' ' '_')"
             curl -X POST \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Content-Type: $(file --mime-type -b "$file")" \
               --data-binary "@$file" \
-              "${{ steps.create_release.outputs.upload_url }}/assets?name=$file"
+              "${{ steps.create_release.outputs.upload_url }}?name=$commit_message"
           done
