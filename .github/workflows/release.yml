@@ -29,11 +29,13 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Current Directory
+        run: |
+          pwd
+
       - name: List Directory Contents
         run: |
-          ls -l    # List current directory contents
-          ls -1 res/release/*  # List release files
-          pwd
+          ls -1 ./res/release/*
 
       - name: Upload Release Asset
         env:
