@@ -24,24 +24,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref_name }}
-          release_name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
 
       - name: List release files
         run: ls -1 res/release/*
 
-      - name: Upload each file to release
+      - name: Upload Release Asset
         id: upload_assets
-        run: |
-          cd res/release
-          for file in *; do
-            echo "Uploading $file..."
-            commit_message="$(echo "${{ github.event.head_commit.message }}" | tr ' ' '_')"
-            curl -X POST \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Content-Type: $(file --mime-type -b "$file")" \
-              --data-binary "@$file" \
-              "${{ steps.create_release.outputs.upload_url }}?name=$file"
-          done
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_pattern: res/release/*
