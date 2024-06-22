@@ -32,6 +32,10 @@ jobs:
       - name: Current Directory
         run: |
           pwd
+      
+      - name: Tree Directory
+        run: |
+          tree -a .
 
       - name: List Directory Contents
         run: |
