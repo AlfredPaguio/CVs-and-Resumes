@@ -32,14 +32,23 @@ jobs:
       - name: Navigate to 'res/release'
         run: cd res/release || exit 1
 
-      - name: Current Directory
+      - name: List contents of 'res' directory
+        run: ls -l res
+
+      - name: List contents of 'res/release' directory
+        run: ls -l res/release
+
+      - name: Navigate to 'res/release'
+        run: cd res/release || { echo "Directory not found"; exit 1; }
+
+      - name: Check current directory after cd
         run: |
           pwd
           ls -l
       
       - name: Tree Directory
         run: |
-          tree -a . -I '.git'
+          tree -a . -I ".git|res/Old CVs/*"
 
       - name: Upload Release Asset
         env:
