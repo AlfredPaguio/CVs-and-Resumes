@@ -29,7 +29,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ github.event.inputs.version }} --title \"Release ${{ github.event.inputs.version }}\" --generate-notes
+          gh release create ${{ github.event.inputs.version }} --title "Release ${{ github.event.inputs.version }}" --generate-notes
 
       - name: Find and Upload Assets
         run: |
