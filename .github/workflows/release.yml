@@ -1,11 +1,6 @@
 name: Create or Update Release and Upload Assets
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   tags:
-  #     - "*.*.*"
   workflow_dispatch:
     inputs:
       version:
@@ -32,7 +27,7 @@ jobs:
         id: determine_version
         run: |
           if [ -n "${{ github.event.inputs.version }}" ]; then
-            echo "::set-output name=version::${{ github.event.inputs.version }}"
+            echo "NEXT_VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
           else
             git fetch --tags
 
@@ -46,7 +41,7 @@ jobs:
               next_version=$(./scripts/bump-version.sh "$current_version")
             fi
             
-            echo "::set-output name=version::$next_version"
+            echo "NEXT_VERSION=$next_version" >> $GITHUB_ENV
           fi
 
       - name: Create GitHub Release
@@ -54,12 +49,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ steps.determine_version.outputs.version }} --title "Release ${{ steps.determine_version.outputs.version }}" --generate-notes
+          gh release create ${{ env.NEXT_VERSION }} --title "Release ${{ env.NEXT_VERSION }}" --generate-notes
 
       - name: Find and Upload Assets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for file in ./release/*; do
-            gh release upload ${{ steps.determine_version.outputs.version }} "$file"  --clobber
+            gh release upload ${{ env.NEXT_VERSION }} "$file"  --clobber
           done
