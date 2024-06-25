@@ -1,17 +1,22 @@
 name: Create or Update Release and Upload Assets
 
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - "v*.*.*"
+  # push:
+  #   branches:
+  #     - main
+  #   tags:
+  #     - "*.*.*"
   workflow_dispatch:
     inputs:
       version:
         description: "Version (tag) for the release"
         required: false
-        default: "v1.0.0"
+
+      is_patch:
+        description: "It is a patch release"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   create_release:
@@ -30,11 +35,17 @@ jobs:
             echo "::set-output name=version::${{ github.event.inputs.version }}"
           else
             git fetch --tags
-            
+
             chmod +x ./scripts/bump-version.sh
             
-            current_version=$(git describe --abbrev=0 --tags)
-            next_version=$(./scripts/bump-version.sh $current_version)
+            if [ "${{ github.event.inputs.is_patch }}" == true ]; then
+              current_version=$(git describe --abbrev=0 --tags)
+              next_version=$(./scripts/bump-version.sh --patch "$current_version")
+            else
+              current_version=$(git describe --abbrev=0 --tags)
+              next_version=$(./scripts/bump-version.sh "$current_version")
+            fi
+            
             echo "::set-output name=version::$next_version"
           fi
 

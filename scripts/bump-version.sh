@@ -1,23 +1,29 @@
 #!/bin/bash
 
-current_version=$1
+# Parse arguments
+while [[ "$#" -gt 0 ]]; do
+  case $1 in
+  --patch) patch=true ;;
+  *) current_version="$1" ;;
+  esac
+  shift
+done
 
-major=$(echo $current_version | cut -d. -f1)
+if [ -z "$current_version" ]; then
+  current_version="v1.0.0"
+fi
+
+major=$(echo $current_version | cut -d. -f1 | sed 's/v//')
 minor=$(echo $current_version | cut -d. -f2)
 patch=$(echo $current_version | cut -d. -f3)
 
-if [[ "$1" == "" ]]; then
-  next_version="v1.0.0"
+if [ -n "$patch" ] && [ "$patch" -lt 9 ] && [ -n "$patch" ]; then
+  next_patch=$((patch + 1))
+  next_version="v$major.$minor.$next_patch"
 else
-  if [[ $minor -lt 9 ]]; then
-    minor=$((minor + 1))
-    next_version="v$major.$minor.$patch"
-  else
-    minor="0"
-    major=$((major + 1))
-    next_version="v$major.$minor.$patch"
-  fi
-
+  minor="0"
+  major=$((major + 1))
+  next_version="v$major.$minor.$patch"
 fi
 
 echo "$next_version"
