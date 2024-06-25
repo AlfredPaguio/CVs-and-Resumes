@@ -20,10 +20,12 @@ patch=$(echo $current_version | cut -d. -f3)
 if [ -n "$patch" ] && [ "$patch" -lt 9 ] && [ -n "$patch" ]; then
   next_patch=$((patch + 1))
   next_version="$major.$minor.$next_patch"
+elif [ -n "$minor" ] && [ "$minor" -lt 9 ]; then
+  next_minor=$((minor + 1))
+  next_version="$major.$next_minor.0"
 else
-  minor="0"
   major=$((major + 1))
-  next_version="$major.$minor.$patch"
+  next_version="$major.0.0"
 fi
 
 echo "$next_version"
