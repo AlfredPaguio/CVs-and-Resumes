@@ -2,13 +2,15 @@ name: Create or Update Release and Upload Assets
 
 on:
   push:
+    branches:
+      - main
     tags:
       - "v*.*.*"
   workflow_dispatch:
     inputs:
       version:
         description: "Version (tag) for the release"
-        required: true
+        required: false
         default: "v1.0.0"
 
 jobs:
@@ -16,25 +18,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Set up Git
-      #   run: |
-      #     git config --global user.name 'github-actions[bot]'
-      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Determine Version
+        id: determine_version
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            echo "::set-output name=version::${{ github.event.inputs.version }}"
+          else
+            current_version=$(git describe --abbrev=0 --tags)
+            next_version=$(./scripts/bump-version.sh $current_version)
+            echo "::set-output name=version::$next_version"
+          fi
 
       - name: Create GitHub Release
         id: create_release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ github.event.inputs.version }} --title "Release ${{ github.event.inputs.version }}" --generate-notes
+          gh release create ${{ steps.determine_version.outputs.version }} --title "Release ${{ steps.determine_version.outputs.version }}" --generate-notes
 
       - name: Find and Upload Assets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for file in ./release/*; do
-            gh release upload ${{ github.event.inputs.version }} "$file"  --clobber
+            gh release upload ${{ steps.determine_version.outputs.version }} "$file"  --clobber
           done
