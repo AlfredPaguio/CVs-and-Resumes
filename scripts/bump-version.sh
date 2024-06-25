@@ -10,7 +10,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 if [ -z "$current_version" ]; then
-  current_version="v1.0.0"
+  current_version="1.0.0"
 fi
 
 major=$(echo $current_version | cut -d. -f1 | sed 's/v//')
@@ -19,11 +19,11 @@ patch=$(echo $current_version | cut -d. -f3)
 
 if [ -n "$patch" ] && [ "$patch" -lt 9 ] && [ -n "$patch" ]; then
   next_patch=$((patch + 1))
-  next_version="v$major.$minor.$next_patch"
+  next_version="$major.$minor.$next_patch"
 else
   minor="0"
   major=$((major + 1))
-  next_version="v$major.$minor.$patch"
+  next_version="$major.$minor.$patch"
 fi
 
 echo "$next_version"
