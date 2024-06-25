@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Determine Version
         id: determine_version
@@ -27,6 +29,8 @@ jobs:
           if [ -n "${{ github.event.inputs.version }}" ]; then
             echo "::set-output name=version::${{ github.event.inputs.version }}"
           else
+            git fetch --tags
+            
             current_version=$(git describe --abbrev=0 --tags)
             next_version=$(./scripts/bump-version.sh $current_version)
             echo "::set-output name=version::$next_version"
